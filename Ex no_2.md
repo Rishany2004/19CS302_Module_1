@@ -5,27 +5,31 @@ To write a program to check whether the attendance is PRESENT using simple if st
 
 ## Algorithm
 
-1. Start
-2. Declare a variable of type float
-3. Initialize the variable with the value 5.8
-4. Display the value using printf()
-5. End   
+1.Start.
+2.Declare a variable value of type char.
+3.Prompt the user to enter a value.
+4.Read the value using scanf.
+5.Check whether the attendance is PRESENT.
+6.If true, print "Present".
+7.If false, print " ".
+8.End.  
 
 ## Program:
 ```
-#include<stdio.h>
-int main()
+#include<stdio.h> 
+int main(){
+char p1; 
+scanf("%c", &p1);
+if(p1=='P')
 {
-    float a=5.800000;
-    scanf("%f",&a);
-    printf("%.3f",a);
-    return 0;
+printf("Present");
 }
+return 0;
+} 
 ```
 
 ## Output:
-
-![image](https://github.com/user-attachments/assets/732dbbf9-046a-440f-90b1-aa760acacbde)
+![image](https://github.com/user-attachments/assets/7153cf63-5a69-418d-9e82-cca151737420)
 
 
 ## Result:
