@@ -4,12 +4,13 @@
 To write a program to initialize the value as 5.8 & display the same.
 
 ## Algorithm
+~~~
 1. Start
 2.Declare a variable of type float
 3.Initialize the variable with the value 5.8
 4.Display the value using printf()
 5.End  
-
+~~~
 ## Program:
 ```
 #include<stdio.h>
